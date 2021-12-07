@@ -1,0 +1,44 @@
+#include<stdio.h>
+
+int main()
+{
+    int i,j,k,l,m;
+    char a,b,c,d;
+    
+    printf("\n\n\nHello world!\n");
+    printf("Welcome to BOI ATM\n");
+    printf("Insert card...\nReading parameters...\n");
+    printf("Enter 4 digit pin\n");
+    scanf("%d",&i);
+    
+    if(i==1234)
+    {
+        printf("Select ur option...\n\n1.Withdrawn\n2.Deposit\n3.Balance enquiry\n4.Mini statement\n");
+        scanf("%d",&j);
+        
+        switch(j)
+        {
+        case (1):
+            printf("Enter amount..\n");
+            scanf("%d",&k);
+            
+            printf("processing...\nplease collect ur cash\n");
+            break;
+            
+        
+        }
+        
+        
+        
+    }
+    else
+    {
+        printf("wrong try again");
+    }
+    
+    
+    
+    
+    
+    return 0;
+}
